@@ -12,4 +12,4 @@ while satunnaisuus != arvaus:
         print("Liian pieni arvaus!")
     elif arvaus == satunnaisuus:
         print("Oikein!")
-        break
+        brea
