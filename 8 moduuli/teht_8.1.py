@@ -15,7 +15,6 @@ sql = f"select name, municipality from airport where ident = '{ICAO}'"
 kursori = yhteys.cursor()
 kursori.execute(sql)
 
-# Haetaan ja käsitellään tulokset.
 tulos = kursori.fetchall()
 
 for rivi in tulos:
