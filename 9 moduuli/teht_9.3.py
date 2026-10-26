@@ -14,7 +14,7 @@ class Auto:
     def kiihdyta(self, nopeuden_muutos_kmh):
         self.nykynopeus += nopeuden_muutos_kmh
 
-        if self.nykynopeus > 0:
+        if self.nykynopeus < 0:
             self.nykynopeus = 0
 
         elif self.nykynopeus > self.huippunopeus:
